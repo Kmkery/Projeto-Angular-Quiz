@@ -1,0 +1,52 @@
+{
+    "title":"Você é mais racional ou emocional ?",
+    "questions":[
+      {
+        "question": "Qual período do dia você se sente melhor ?",
+        "options":[
+          {"id": 1, "name":"Manhã", "alternative":"A"},
+          {"id": 2, "name":"Tarde", "alternative":"B"},
+          {"id": 3, "name":"Noite", "alternative":"A"}
+        ]
+      },
+      {
+        "question": "Você confia na sua intuição ?",
+        "options":[
+          {"id": 1, "name":"Sempre", "alternative":"B"},
+          {"id": 2, "name":"Não mesmo", "alternative":"B"},
+          {"id": 3, "name":"Algumas vezes", "alternative":"A"}
+        ]
+      },
+      {
+        "question": "Você acaba de receber uma grande herança, o que fará ?",
+        "options":[
+          {"id": 1, "name":"Vou gastar com tudo o que sempre quiz", "alternative":"B"},
+          {"id": 2, "name":"Vou poupar, dinheiro na mão é vendaval", "alternative":"B"},
+          {"id": 3, "name":"Vou investir no que precisar", "alternative":"A"}
+        ]
+      },
+      {
+        "question": "O que é mais lhe frustra ?",
+        "options":[
+          {"id": 1, "name":"Ficar sem respostas", "alternative":"B"},
+          {"id": 2, "name":"Viver uma rotina", "alternative":"B"},
+          {"id": 3, "name":"Não terminar uma tarefa a tempo", "alternative":"A"},
+          {"id": 4, "name":"Quando as pessoas não entendem o que digo", "alternative":"A"}
+        ]
+      },
+      {
+        "question": "Para você, o amor...",
+        "options":[
+          {"id": 1, "name":"Inspira", "alternative":"A"},
+          {"id": 2, "name":"É essencial", "alternative":"A"},
+          {"id": 3, "name":"É cego", "alternative":"B"},
+          {"id": 4, "name":"Não é tudo", "alternative":"B"},
+          {"id": 5, "name":"Dói", "alternative":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você provavelmente é uma pessoa mais racional!",
+      "B": "Você provavelmente é uma pessoa mais emocional!"
+    }
+  }

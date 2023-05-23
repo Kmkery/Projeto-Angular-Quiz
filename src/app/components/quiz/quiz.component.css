@@ -1,0 +1,127 @@
+.quiz__container {
+    min-width: 360px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+    background-color: rgb(10, 10, 73);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz__container > h1 {
+    width: 85%;
+    font-size:46px;
+    text-align: center;
+}
+
+.quiz__content {
+    width: 85%;
+    margin-top: 20px;
+    padding: 0 10px 20px 10px;    
+    flex-direction: column;
+    border: 2px solid rgb(255, 255, 0);
+    border-radius: 20px;
+}
+
+.quiz__content > h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.quiz__questions {
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.quiz__question-title {
+    width: 100%;
+    height: 150px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(70, 73, 230);
+    justify-content: center;
+    border-radius: 10px ;
+}
+
+.quiz__question-title > h3 {
+    text-align: center;
+}
+
+.quiz__options {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0 0 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-option {
+    width: 48.5%;
+    max-width: 300px; 
+    min-height: 80px;
+    margin: 2px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 128, 0);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-option:hover {
+    background-color: rgb(127, 255, 212);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-option:active {
+    background-color: rgb(0, 255, 64);
+    position: relative;
+    top: 2px;
+    border: 2px solid rgb(20, 235, 199);
+}
+
+.quiz__result {
+    flex-direction: column;
+}
+
+.quiz__result > h1 {
+    margin-top: 20px;
+}
+
+.quiz__result > .quiz__result-text {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgb(203, 217, 228);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.quiz__result__restart-msg {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: none;
+    border: 2px solid rgb(0, 128, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.quiz__result__restart-msg:hover {
+    background-color: rgb(127, 255, 212);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.quiz__result__restart-msg:active {
+    background-color: rgb(0, 255, 64);
+    position: relative;
+    top: 1px;
+    border: 2px solid rgb(20, 235, 199);
+}
+
