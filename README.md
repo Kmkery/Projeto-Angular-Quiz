@@ -1,7 +1,7 @@
 # Projeto Quiz com Angular
 
-Este repositÛrio faz parte do desafio de projeto do Bootcamp da Dio e baseado no [repositÛrio Angular BuzzFeed Quizz Clone](https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone.git).
+Este reposit√≥rio faz parte do desafio de projeto do Bootcamp da Dio e baseado no [reposit√≥rio Angular BuzzFeed Quizz Clone](https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone.git).
 
-## DescriÁ„o
-Um simples quiz desenvolvido com Angular. As questıes s„o carregadas a partir de um arquivo .json podendo conter qualquer quantidade de questıes e alternativas, mas impreterivelmente dois possÌveis resultados (A ou B). Para expandir os resultados, basta alterar a funÁ„o calculateResult() no arquivo quiz.component.ts e adicionar tantos filtros quantos os resultados desejados para o quiz e ajustar a comparaÁ„o entre eles por meio de tern·rios ou `if()`.
+## Descri√ß√£o
+Um simples quiz desenvolvido com Angular, o resultado pode ser visto [clicando neste link](https://kmkery.github.io/Projeto-Angular-Quiz/). As quest√µes s√£o carregadas a partir de um arquivo .json podendo conter qualquer quantidade de quest√µes e alternativas, mas impreterivelmente dois poss√≠veis resultados (A ou B). Para expandir os resultados, basta alterar a fun√ß√£o calculateResult() no arquivo quiz.component.ts e adicionar tantos filtros quantos os resultados desejados para o quiz e ajustar a compara√ß√£o entre eles por meio de tern√°rios ou `if()`.
 
